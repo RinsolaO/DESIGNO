@@ -1,0 +1,307 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap'); */
+/* Styling  */
+*{
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: 'Jost', sans-serif;    
+}
+
+.navhead {
+    background-color: #ffffff;
+    opacity: .8;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    position: fixed;
+    font-weight: 14px;
+    font-family: 'Jost', sans-serif;
+    
+}
+
+.designo {
+    height: 27px;
+    width: 202px;
+}
+
+.navitem {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navitem li {
+    list-style: none;
+    padding-left: 4em;
+}
+
+.navitem li a {
+    text-decoration: none;
+    color: #333136;
+}
+
+.award-container-grid {
+    display: grid;
+    z-index: -1;
+    margin-top: 10rem;
+    margin-left: 5rem;
+    position: absolute;
+    width: 1111px;
+    height: 640px;
+    border-radius: 25px;
+    background-color: #E7816B;
+    color: white;
+    font-family: 'Jost', sans-serif;
+    grid-template-areas: 
+    "award-container award-container-img";
+    ;
+    align-content: center;
+    justify-content: space-around;
+
+}
+
+.award-container {
+    grid-area: award-container;
+    display: block;
+    padding-left: 3.5em;
+    padding-top: 13rem;
+
+}
+
+.award-container-img {
+    grid-area: award-container-img;
+}
+
+.award-container h2{
+    font-size: 45px;
+
+}
+
+.award-button {
+    text-align: center;
+    height: 52px;
+    width: 152px;
+    margin-top: 2em;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border: white;
+}
+
+.img-grid {
+    margin-left: 5rem;
+    text-align: center;
+    z-index: -1;
+    position: absolute;
+    color: black;
+    margin-top: 55rem;
+    display: grid;
+    grid-template-areas: 
+    " web app "
+    " web graphic " ;
+    color: white;    
+}
+
+.img-grid a {
+    text-decoration: none;
+    color: white; 
+    font-size: 15px;
+    letter-spacing: 3px;    
+}
+
+.img-grid h3 {
+    font-size: 40px;
+}
+
+
+.web {
+    padding-top: 15rem;    
+    border-radius: 15px;    
+    grid-area: web;    
+    background-image: url("images/laptop.jpg");
+    height: 640px;
+    width: 540.5px;
+    margin-right: 2em;
+}
+
+.app {
+    padding-top: 3rem;    
+    border-radius: 15px;    
+    grid-area: app;    
+    background-image: url("images/image-app-design.jpg");
+    height: 308px;
+    width: 540.5px;
+    margin-bottom: 1.5em;
+    
+}
+
+.graphic {
+    padding-top: 3rem;    
+    border-radius: 15px;    
+    grid-area: graphic;    
+    background-image: url("images/image-graphic-design.jpg");
+    height: 308px;
+    width: 540.5px;
+}
+
+.section3 {
+    color: black;
+    text-align: center;
+    display: flex;
+    padding-top: 99rem;
+    justify-content: center;
+}
+
+.section3 img {
+    width: 202px;
+    height: 202px;
+
+}
+
+.passionate {
+    width: 350px;
+    height: 412px;
+}
+
+.resourceful {
+    width: 350px;
+    height: 412px;
+}
+
+.friendly {
+    width: 350px;
+    height: 412px;
+}
+
+.get-in-touch {
+    padding-top: 3rem;
+    margin-left: 5rem;
+    border-radius: 15px;        
+    display: grid;
+    width: 1111px;
+    height: 292px;
+    background-color: #E7816B;
+    grid-template-areas: 
+    "project get-button" ;
+    justify-content: space-around;
+    /* border-radius: 15px;        
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    width: 1111px;
+    height: 292px;
+    background-color: #E7816B;
+    padding: 2rem 5rem;
+    align-content: center;
+    justify-content: center; */
+    
+}
+
+.project {
+    width: 459px;
+    height: 148px;
+    grid-area: project;
+}
+
+.get-in-touch h3 {
+    font-size: 40px;
+}
+
+.get-in-touch p {
+    font-size: 16px;
+}
+
+
+.get-button {
+    grid-area: get-button;    
+    text-align: center;
+    height: 52px;
+    width: 152px;
+    margin-top: 4em;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border: white;
+}
+
+footer {
+    margin-top: -5em;
+    padding-top: 7em;
+    position: absolute;
+    z-index: -1; 
+    border-radius: 15px;            
+    width: 1280px;
+    height: 393px;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+}
+
+.bottomfooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -2rem;
+    
+
+}
+
+.footeritem {
+    display: flex;
+}
+
+.footeritem li {
+    list-style: none;
+    padding-left: 4em;
+}
+.footeritem li a {
+    text-decoration: none;
+    color: white;
+}
+
+.line {
+    opacity: .2;
+    margin-left: 7.5rem;
+    margin-top: 1em;
+    height: .07px;
+    width: 1010px;
+    background-color: white;
+}
+
+.address {
+    margin-top: 3rem;
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.socialicons img {
+    margin-right: 1rem;
+    width: 24px;
+    height: 24px;
+    
+}
+@media (max-width : 1200px) {
+    .navhead {
+        font-weight: 14px;        
+    }
+    
+    .designo {
+        height: 24px;
+        width: 196px;
+    }
+
+    .award-container-grid {
+        margin-left: 3rem;    
+    }
+
+
+
+}
